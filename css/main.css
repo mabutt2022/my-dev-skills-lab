@@ -1,0 +1,53 @@
+.box {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 250px auto;
+  justify-content: center;
+}
+
+.item-div {
+  justify-content: center;
+  width: 400px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  /* background-color: red; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  color: white;
+  background-color: rgba(39, 150, 39, 0.719);
+  text-align: center;
+}
+
+.textbox {
+  height: 30px;
+  width: 285px;
+  border-color: rgba(39, 150, 39, 0.719);
+  border-width: medium 3px;
+}
+
+.button {
+  color: rgba(39, 150, 39, 0.719);
+  background-color: white;
+  font-weight: bold;
+  margin-left: 12px;
+  border-color: rgba(39, 150, 39, 0.719);
+  border-width: medium 3px;
+}
+
+.skill-button {
+  margin-right: 20px;
+  background-color: rgb(216, 82, 82);
+  color: white;
+  border: none;
+}
+
+.skills {
+  min-height: 150px;
+}
+
+.skill-list {
+  color: orange;
+}
